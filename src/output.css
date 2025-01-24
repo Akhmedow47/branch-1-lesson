@@ -554,8 +554,33 @@ video {
   display: none;
 }
 
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .flex {
   display: flex;
+}
+
+.w-\[19\] {
+  width: 19;
+}
+
+.w-\[100\%\] {
+  width: 100%;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[50\%\] {
+  width: 50%;
+}
+
+.w-\[40\%\] {
+  width: 40%;
 }
 
 .items-center {
@@ -576,6 +601,14 @@ video {
 
 .gap-3 {
   gap: 0.75rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-7 {
+  gap: 1.75rem;
 }
 
 .rounded-2xl {
@@ -602,12 +635,58 @@ video {
   border-radius: 39px;
 }
 
+.rounded-\[50\%\] {
+  border-radius: 50%;
+}
+
+.rounded-\[20px\] {
+  border-radius: 20px;
+}
+
+.rounded-\[30px\] {
+  border-radius: 30px;
+}
+
 .border-\[1px\] {
   border-width: 1px;
 }
 
+.bg-inherit {
+  background-color: inherit;
+}
+
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#335B6B\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 91 107 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#EFD372\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 211 114 / var(--tw-bg-opacity, 1));
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-\[100\%\] {
+  background-position: 100%;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
 .p-4 {
   padding: 1rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
 }
 
 .px-10 {
@@ -635,7 +714,84 @@ video {
   padding-right: 2rem;
 }
 
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.pt-\[100\] {
+  padding-top: 100;
+}
+
+.pt-\[200px\] {
+  padding-top: 200px;
+}
+
+.pr-\[\] {
+  padding-right: ;
+}
+
+.pr-\[100px\] {
+  padding-right: 100px;
+}
+
+.pr-\[50px\] {
+  padding-right: 50px;
+}
+
+.pl-\[50px\] {
+  padding-left: 50px;
+}
+
+.font-serif {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.text-\[70px\] {
+  font-size: 70px;
+}
+
+.text-\[36px\] {
+  font-size: 36px;
+}
+
+.text-\[16px\] {
+  font-size: 16px;
+}
+
+.text-\[20px\] {
+  font-size: 20px;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
 .text-\[\#7EB693\] {
   --tw-text-opacity: 1;
   color: rgb(126 182 147 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.text-\[\#274C5B\] {
+  --tw-text-opacity: 1;
+  color: rgb(39 76 91 / var(--tw-text-opacity, 1));
+}
+
+.placeholder-cyan-50::-moz-placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(236 254 255 / var(--tw-placeholder-opacity, 1));
+}
+
+.placeholder-cyan-50::placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(236 254 255 / var(--tw-placeholder-opacity, 1));
 }
